@@ -17,4 +17,4 @@ First release!!
 * Supported UTF-16 Levelnames (you can write it with [**Level Info Editor 1.5-mod**](https://github.com/wakanameko/Level-Info-Editor_UTF))
 
 ### Usage
-Plz read [**NewerSMBW's**](https://github.com/Newer-Team/NewerSMBW/blob/clang-no-translations/README.md). This mod can be built in the same way as NewerSMBW.
+Plz refer to [**NewerSMBW's**](https://github.com/Newer-Team/NewerSMBW/blob/clang-no-translations/README.md). This mod can be built in the same way as NewerSMBW.

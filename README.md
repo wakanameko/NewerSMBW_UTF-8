@@ -14,7 +14,12 @@ If you use any of our code for your mod, please credit **NewerTeam**, **Asu-Chan
 ## Version 1.0.0
 First release!!  
 ### ･ Changes (from NerSMBW1.2.0)  
-* Supported UTF-16 Levelnames (you can write it with [**Level Info Editor 1.5-mod**](https://github.com/wakanameko/Level-Info-Editor_UTF))
+* Supported UTF-16 Levelnames (you can write it with [**Level Info Editor 1.5-mod**](https://github.com/wakanameko/Level-Info-Editor_UTF))  
+  
+## Version 1.1.0
+### ･ Changes  
+* I fixed a wmap load error bug  
+  
 
 ### Usage
 Plz refer to [**NewerSMBW's**](https://github.com/Newer-Team/NewerSMBW/blob/clang-no-translations/README.md). This mod can be built in the same way as NewerSMBW.

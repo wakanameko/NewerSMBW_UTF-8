@@ -20,7 +20,6 @@ modules:
   - processed/layouthax.yaml
   - processed/animtiles.yaml
   - processed/soundPlayer.yaml
-  - processed/soundtest.yaml  # a line from NSMBW-TPC by Asu  # TARZAN_ROPE - Sound Test, based on cutScene.yaml/cpp/h
   - processed/bowserKey.yaml
   - processed/levelspecial.yaml
   - processed/mrsun.yaml

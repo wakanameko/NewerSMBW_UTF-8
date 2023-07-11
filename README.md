@@ -25,5 +25,5 @@ First release!!
 * Can't enter wmap names with UTF-16  
   
 
-### Usage
+## Usage
 Plz refer to [**NewerSMBW's**](https://github.com/Newer-Team/NewerSMBW/blob/clang-no-translations/README.md). This mod can be built in the same way as NewerSMBW.

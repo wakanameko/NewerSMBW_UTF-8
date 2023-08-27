@@ -1,9 +1,7 @@
-# NewerSMBW_UTF-16
+# NewerSMBW_UTF-16 (1.2.0)
 ## Source Code Public Release
 
 This is the modded source code of the Newer Super Mario Bros. Wii version1.2.0.
-
-If you want to use Newer 1.30 based Source code of this code, you need to make your own sry
 
 * Based Mods  
 [**Newer Super Mario Bros. Wii(1.2.0)**](https://github.com/Newer-Team/NewerSMBW),  

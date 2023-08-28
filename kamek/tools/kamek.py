@@ -6,7 +6,7 @@
 
 # Requires PyYAML and pyelftools
 
-version_str = 'Kamek by Ninji'
+version_str = 'Kamek by Ninji\nedited by wakanameko'
 
 import binascii
 import os
@@ -39,6 +39,7 @@ override_config_file = None
 only_build = None
 fast_hack = False
 
+urEncoding = sys.getdefaultencoding()
 
 def parse_cmd_options():
     global use_rels, use_mw, use_wine, show_cmd, delete_temp, only_build, fast_hack
@@ -426,7 +427,7 @@ class KamekBuilder(object):
 
         if fast_hack:
             fast_cpp_path = os.path.join(self._configTempDir, 'fasthack.cpp')
-            fast_cpp = open(fast_cpp_path, 'w')
+            fast_cpp = open(fast_cpp_path, 'w', encoding='utf-8')   # Hi, I edited here. It is becuz I want to use Japanese charactors. That's all:D
 
         for m in self.project.modules:
             for normal_sourcefile in m.data['source_files']:
@@ -443,7 +444,7 @@ class KamekBuilder(object):
                         command = as_command
                     elif sourcefile.endswith('.cpp') and fast_hack:
                         fast_cpp.write('//\n// %s\n//\n\n' % sourcefile)
-                        with open(sourcefile, 'r', encoding = utf-8) as sf:      # added encoding option
+                        with open(sourcefile, 'r', encoding='utf-8') as sf:     # here's too XD
                             fast_cpp.write(sf.read())
                         fast_cpp.write('\n')
                         continue
@@ -704,8 +705,7 @@ class KamekProject(object):
 
 
 def main():
-    print(version_str)
-    print('')
+    print(version_str + '\n\n' + 'default encoding is ' + urEncoding + '\n\n')
 
     if len(sys.argv) < 2:
         print('No input file specified')

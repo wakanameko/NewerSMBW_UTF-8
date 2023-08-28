@@ -221,8 +221,8 @@ void dWMHud_c::loadHeaderInfo() {
 			nodeForHeader->levelNumber[0]-1, nodeForHeader->levelNumber[1]-1);
 
 	if (infEntry == 0) {
-		LevelName->SetString(L"ふめいなステージです!");
-		LevelNameS->SetString(L"ふめいなステージです!");
+		LevelName->SetString(L"Unknown level name!");
+		LevelNameS->SetString(L"Unknown level name!");
 		return;
 	}
 

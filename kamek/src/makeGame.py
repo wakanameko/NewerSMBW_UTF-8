@@ -39,7 +39,7 @@ else:
 
 subprocess.run([sys.executable, 'tools/mapfile_tool.py', project_path])
 
-res = subprocess.run([sys.executable, 'tools/kamek_utf-8.py', project_path, '--show-cmd', '--no-rels', '--use-mw', f'--gcc-path={gccpath}', '--gcc-type=powerpc-eabi', '--mw-path=tools/cw', '--filt-path=tools/c++filt', '--fast-hack', *kamekopts])
+res = subprocess.run([sys.executable, 'tools/kamek.py', project_path, '--show-cmd', '--no-rels', '--use-mw', f'--gcc-path={gccpath}', '--gcc-type=powerpc-eabi', '--mw-path=tools/cw', '--filt-path=tools/c++filt', '--fast-hack', *kamekopts])
 if res.returncode == 0:
     print('compile successful')
 else:

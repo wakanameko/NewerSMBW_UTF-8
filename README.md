@@ -1,4 +1,4 @@
-# NewerSMBW_UTF-16 (1.2.0)
+# NewerSMBW_UTF-8 (1.2.0)
 ## Source Code Public Release
 
 This is the modded source code of the Newer Super Mario Bros. Wii version1.2.0.
@@ -12,7 +12,7 @@ If you use any of our code for your mod, please credit **NewerTeam**, **Asu-Chan
 ## Version 1.0.0
 First release!!  
 ### ･ Changes (from NerSMBW1.2.0)  
-* Supported UTF-16 Levelnames (you can write it with [**Level Info Editor 1.5-mod**](https://github.com/wakanameko/Level-Info-Editor_UTF))  
+* Supported UTF-8 Levelnames (you can write it with [**Level Info Editor 1.5-mod**](https://github.com/wakanameko/Level-Info-Editor_UTF))  
 ### ･ known issues  
 * Can't enter wmap names with UTF-16  
   
@@ -20,7 +20,7 @@ First release!!
 ### ･ Changes  
 * I fixed a wmap load error bug  
 ### ･ known issues  
-* Can't enter wmap names with UTF-16  
+* Can't enter wmap names with UTF-8  
   
 
 ## Usage

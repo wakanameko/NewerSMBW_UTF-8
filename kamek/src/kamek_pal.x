@@ -1837,6 +1837,11 @@ SECTIONS {
 	
 	sException__Q24nw4r2dbFv = 0x803DA860;
 
+	/*  /////////////////////////////////////////////*/
+	/* ///// New Super Mario World. Wii stuff //////*/
+	/*/////////////////////////////////////////////*/
+	/* write unicode charactors func (by Reaz0n23)*/
+	WriteUnicodeToTextBox = 0x803580AE;
 
 	.text : {
 		FILL (0)

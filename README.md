@@ -7,7 +7,8 @@ This is the modded source code of the Newer Super Mario Bros. Wii version1.30.
 [**Newer Super Mario Bros. Wii(1.30)**](https://github.com/Newer-Team/NewerSMBW),  
 [**NSMBW The PrankStar Comets**](https://github.com/Asu-chan/NSMBWThePranksterComets)  
 
-If you use any of our code for your mod, please credit **NewerTeam**, **Asu-Chan**, **wakanameko**
+If you use any of our code for your mod, please credit **NewerTeam**, **Asu-Chan**, **wakanameko**  
+Special thanks : **Reaz0n23** (he/she added a WriteUnicodeToTextBox func)  
 
 ## Version 1.0.0(1.30)
 First release!!  

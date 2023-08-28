@@ -14,7 +14,7 @@ First release!!
 ### ･ Changes (from NerSMBW1.2.0)  
 * Supported UTF-8 Levelnames (you can write it with [**Level Info Editor 1.5-mod**](https://github.com/wakanameko/Level-Info-Editor_UTF))  
 ### ･ known issues  
-* Can't enter wmap names with UTF-16  
+* Can't enter wmap names with UTF-8  
   
 ## Version 1.1.0
 ### ･ Changes  

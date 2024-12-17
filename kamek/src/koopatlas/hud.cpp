@@ -354,7 +354,7 @@ void dWMHud_c::loadFooterInfo() {
 	WorldNameS->SetString(convertedWorldName);
 
 	WorldName->colour1 = save->hudTextColours[0];
-	WorldName->colour2 = save->hudTextColours[1];
+	WorldNameS->colour2 = save->hudTextColours[1];
 
 	footerCol.colourise(save->hudHintH%1000, save->hudHintS, save->hudHintL);
 
